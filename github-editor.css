@@ -1,0 +1,2 @@
+@import url('editor.css');
+.save-state{color:#319c7b;font-size:12px}.connect-note{background:#f9f6fc;border:1px solid #e9e4f0;padding:12px;border-radius:7px;font-size:11px;line-height:1.8}.connect-note a{color:#c34a82}.edit-dialog .edit-message{min-height:20px}.edit-dialog .edit-actions{flex-wrap:wrap}.token-field{font-family:monospace!important}.github-connect{color:#ad4475;border:0;background:none;font:inherit;font-size:11px;text-decoration:underline;cursor:pointer}.edit-task{font-weight:600}.edit-dialog{font-family:var(--dashboard-font)}
