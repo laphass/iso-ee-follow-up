@@ -1,0 +1,16 @@
+/* Local font lookup only. The Free License prohibits online font distribution.
+   Organization use requires an appropriate Full License from Pocket Fonts. */
+@font-face {
+  font-family: "PK Maehongson";
+  src: local("PK Maehongson Medium"), local("PKMaehongson-Medium"), local("PK Maehongson");
+  font-weight: 400 500;
+  font-style: normal;
+  font-display: swap;
+}
+:root { --dashboard-font: "PK Maehongson", "Segoe UI", Tahoma, sans-serif; }
+html, body, button, input, select, textarea, dialog, svg text {
+  font-family: var(--dashboard-font);
+}
+body { line-height: 1.7; }
+.task-title, .edit-field { line-height: 1.7; }
+/* The externally hosted Tracker retains its own font settings. */
